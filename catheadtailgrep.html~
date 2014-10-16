@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Practice Website</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <div class ="Boxes" id="Box1">
+            <h1> Hello world. </h1>
+        </div>
+    </body>
+</html>
+<IMG SRC="cat2.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="catfile1file2file3.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="catfile1file2.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="catfile1.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="catwordspipehead.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="catwords.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="grepcatstwain.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="grepfish.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="grep-ncatstwain.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="grep-nfish.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="grep-vfish.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="grep-v-nfish.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="head-4file1.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="headfile1.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="pastefile1file2.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="tail-4.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
+<IMG SRC="tailfile1.png" ALT="some text" WIDTH = 32 HEIGHT = 32>
