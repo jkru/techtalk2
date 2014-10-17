@@ -1,15 +1,11 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>cat, head, tail, and grep</title>
+        <title>cat</title>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
     </head>
     <style>
-      
-
-      body {
-      font-family: sans-serif;
-}
+      body {font-family: sans-serif;}
     </style>
     <body>
         <h1>cat</h1> 
@@ -25,14 +21,33 @@
 	Let's take a look and see how this works.</p>
         <div class ="Boxes" id="Box1">
 	  <p>This is what happens when we cat file1.txt:</p>
-	<div><IMG SRC="catfile1.png" ALT="some text"></div><br>
+	<div id = "cat1"><IMG SRC="blank_catfile1.png" ALT="some text"></div><br>
 	  <p>And now let's look at file2.txt:</p>
-        <div><IMG SRC="cat2.png" ALT="some text" ></div><br>
-	<div><IMG SRC="catfile1file2.png" ALT="some text" ></div><br>
-	<div><IMG SRC="catfile1file2file3.png" ALT="some text" ></div><br>
-	<div><IMG SRC="pastefile1file2.png" ALT="some text" ></div><br>
+        <div id = "cat2"><IMG SRC="blank_cat2.png" ALT="some text" ></div><br>
+	  <p>You can also cat two files together. Unlike string
+	  concatonation in python, the output is actually file1.txt
+	  and file2.txt vertically stacked.</p>
+	<div id = "cat12"><IMG SRC="blank_catfile1file2.png" ALT="some text" ></div><br>
+	<p>We can also take the output of the "cat file1.txt
+	file2.txt" command and save them to another file using the >
+	symbol. In this example, we send the output of file1.txt and
+	file2.txt to file3.txt. As long as nothing goes wrong, cat
+	file1.txt file2.txt > file3.txt will not display any
+	output. To see the results, we show cat file3.txt </p>
+	<div id = "cat123"><IMG SRC="blank_catfile1file2file3.png" ALT="some text" ></div><br>
+
+	<p>There is a way to concatonate two files together the way
+	that string concatonation works in python. This command is
+	called paste. It will output the two files horizontally, with
+	the sets of input separated by tabs.</p>
+	<div id = "paste12"><IMG SRC="blank_pastefile1file2.png" ALT="some text" ></div><br>
 
 </div>
+
+<p> <a href="/home/user/src/techtalk/headtail.html">Onward to head and tail!</a></p>
     </body>
+<script src="cat.js"> 
+</script>
+
 </html>
 
